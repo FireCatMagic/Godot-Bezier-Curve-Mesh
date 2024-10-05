@@ -1,3 +1,6 @@
-[gd_scene format=3 uid="uid://bi61t2jmuynnt"]
+[gd_scene load_steps=2 format=3 uid="uid://bi61t2jmuynnt"]
 
-[node name="Node" type="Node"]
+[sub_resource type="CurveMesh3D" id="CurveMesh3D_yhr38"]
+
+[node name="MeshInstance3D" type="MeshInstance3D"]
+mesh = SubResource("CurveMesh3D_yhr38")

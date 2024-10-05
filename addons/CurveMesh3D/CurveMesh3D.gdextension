@@ -1,0 +1,11 @@
+[configuration]
+
+entry_symbol = "curve_mesh_3d_library_init"
+compatibility_minimum = 4.2
+reloadable = true
+
+[libraries]
+windows.debug.x86_64 = "res://addons/CurveMesh3D/bin/CurveMesh3D.debug.dll"
+windows.release.x86_64 = "res://addons/CurveMesh3D/bin/CurveMesh3D.dll"
+linux.debug.x86_64 = "res://addons/CurveMesh3D/bin/CurveMesh3D.so"
+linux.release.x86_64 = "res://addons/CurveMesh3D/bin/CurveMesh3D.debug.so"

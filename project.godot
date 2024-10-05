@@ -10,13 +10,13 @@ config_version=5
 
 [application]
 
-config/name="Bezier Curve Mesh"
-run/main_scene="res://example.tscn"
+config/name="CurveMesh3D"
+run/main_scene="res://Example.tscn"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/BezierCurveMesh/plugin.cfg")
+enabled=PackedStringArray("res://addons/CurveMesh3D/plugin.cfg")
 
 [rendering]
 

@@ -1,4 +1,4 @@
-[submodule "Source/godot-cpp"]
-	path = Source/godot-cpp
+[submodule "source/godot-cpp"]
+	path = source/godot-cpp
 	url = https://github.com/godotengine/godot-cpp
 	branch = 4.2
