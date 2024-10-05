@@ -1,0 +1,10 @@
+.godot
+*.tmp
+~*
+
+# C++ compilation files
+*.pdb
+*.x86_32.obj
+*.x86_64.obj
+*.os
+*.sconsign.dblite
